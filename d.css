@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(168, 28, 192);
+}
+.welcomepage {
+    height: 100px;
+    width: 580px;
+    background-color: blue;
+    border: 4px solid rgb(5, 13, 107);
+    border-radius: 20px;
+    color: rgb(70, 9, 4);
+    font-style: oblique;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px ;
+}
+.frame {
+    height: 700px;
+    width: 1800px;
+    border: 4px solid #000;
+    background-color: rgb(191, 224, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.Npc {
+height: 200px;
+margin-top: 500px;
+background-color: blueviolet;
+width: 50px;
+border:4px solid #000;
+}
+.block {
+    height: 80px;
+    margin-top: 620px;
+    margin-left: 1500px;
+    background-color: crimson;
+    width: 80px;
+}
+
