@@ -1,6 +1,0 @@
-# for id
-. for class
-h1 for h1 ...
-margin space insdie the grid
-padding space out side the box
-they can be mix thogether

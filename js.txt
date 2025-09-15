@@ -1,3 +1,0 @@
-we use defer so it can lode after everthing is loded in html 
-other ways i will keep it down.
-
