@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Volantis Hall — Premium Esports Hub</title>
+  <meta name="description" content="Volantis Hall — premium gaming & esports hub in Bahrain. Book PCs, consoles, VIP rooms, and events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="grain"></div>
+  </div>
+
+  <header class="nav">
+    <div class="container navInner">
+      <a class="brand" href="#top" data-section-target="top">
+        <span class="dot"></span>
+        <span>VOLANTIS HALL</span>
+        <span class="tag">Executive Preview</span>
+      </a>
+
+      <nav class="links">
+        <a href="#top" data-section-target="top">Home</a>
+        <a href="#features" data-section-target="features">Why us</a>
+        <a href="#pricing" data-section-target="pricing">Pricing</a>
+        <a href="#booking" data-section-target="booking">Booking</a>
+        <a href="#events" data-section-target="events">Events</a>
+        <a href="#contact" data-section-target="contact">Contact</a>
+      </nav>
+
+      <button class="btn btnPrimary" id="openBookingTop" data-section-target="booking">Book now</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container switchable active" id="top">
+      <div class="heroLeft">
+        <div class="pill">
+          <span class="pulse"></span>
+          Seef, Bahrain • 18-hour operations • Fiber-backed latency
+        </div>
+
+        <h1>
+          A flagship esports venue engineered for
+          <span class="glow">high-performance teams</span>.
+        </h1>
+
+        <p class="sub">
+          72 performance PCs, 32 console suites, 3 private VIP rooms, and a hospitality-driven café.
+          Designed to mirror the atmosphere and infrastructure of a modern esports arena.
+        </p>
+
+        <div class="ctaRow">
+          <button class="btn btnPrimary" id="openBookingHero" data-section-target="booking">Plan a session</button>
+          <a class="btn btnGhost" href="#pricing" data-section-target="pricing">View pricing</a>
+        </div>
+
+        <div class="stats">
+          <div class="statCard">
+            <div class="statNum">72</div>
+            <div class="statLabel">Performance PCs</div>
+          </div>
+          <div class="statCard">
+            <div class="statNum">32</div>
+            <div class="statLabel">Console Setups</div>
+          </div>
+          <div class="statCard">
+            <div class="statNum">3</div>
+            <div class="statLabel">Private Suites</div>
+          </div>
+        </div>
+
+        <div class="heroSummary">
+          <h4>What investors see</h4>
+          <p>
+            The venue combines hospitality lighting, custom cable management, and modular branding zones,
+            so every tour instantly signals “ready to launch”. Highlight these talking points when you present:
+          </p>
+          <ul>
+            <li>Separate sound-treated suite behind the PC wing for VIP and coaching sessions.</li>
+            <li>Back-of-house technical bench for rapid peripheral swaps and maintenance.</li>
+            <li>Digital signage network with dynamic sponsor rotation & match schedules.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="heroRight">
+        <figure class="heroPhoto">
+          <img src="pc.png" alt="Volantis Hall premium PC wing" loading="lazy" />
+          <figcaption>
+            Real interior shot — dual-row arena layout with LED accent lighting and sponsor-ready surfaces.
+          </figcaption>
+        </figure>
+
+        <div class="frame">
+          <div class="frameTop">
+            <div class="dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="mini">Live Booking Snapshot</span>
+          </div>
+
+          <div class="mock">
+            <div class="mockRow">
+              <div class="chip active">PC</div>
+              <div class="chip">Console</div>
+              <div class="chip">VIP Suite</div>
+              <div class="chip">Event Block</div>
+            </div>
+            <div class="mockGrid" id="mockGrid"></div>
+            <div class="mockFooter">
+              <span class="hint">Choose a service, date, and slot to simulate a booking</span>
+              <button class="btn btnSmall btnPrimary" id="openBookingMock" data-section-target="booking">Reserve now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="trust">
+          <div class="trustItem">⚡ 144–360Hz certified hardware</div>
+          <div class="trustItem">🎥 Broadcast-ready VIP rooms</div>
+          <div class="trustItem">🏆 Structured weekly tournaments</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container section switchable">
+      <div class="sectionHead">
+        <h2>Why Volantis Hall</h2>
+        <p>Scale, premium infrastructure, and diversified spending channels in a single venue.</p>
+      </div>
+
+      <div class="grid3">
+        <article class="card">
+          <h3>Performance-first</h3>
+          <p>High-refresh monitors, esports peripherals, and a network stack tuned for latency-sensitive play.</p>
+          <div class="miniList">
+            <span>• Tournament-grade stations</span>
+            <span>• Dedicated stage inventory</span>
+            <span>• Optimized matchmaking flow</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Built for teams</h3>
+          <p>Private spaces tailored to bootcamps, scrims, coaching, and on-site content capture.</p>
+          <div class="miniList">
+            <span>• Three fully serviced suites</span>
+            <span>• Group-focused booking flow</span>
+            <span>• Predictable day-rate packages</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Diversified revenue</h3>
+          <p>PC, console, private rooms, café service, and event programming combine for stable returns.</p>
+          <div class="miniList">
+            <span>• Corporate + social events</span>
+            <span>• Café and catering add-ons</span>
+            <span>• Tiered membership bundles</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="aboutLayout">
+        <article class="card detailCard">
+          <h3>Facility walkthrough</h3>
+          <p>
+            Guests enter a double-height lobby with LED ticker, merchandise wall, and a concierge counter that feeds both café and booking flows.
+          </p>
+          <ul class="detailList">
+            <li>144-square-meter main hall with 72 seats, split into competition and casual banks.</li>
+            <li>Dedicated broadcast pod with glass frontage for creators and casters.</li>
+            <li>Acoustic treatment, blackout curtains, and RGB lighting to shape atmosphere per event.</li>
+          </ul>
+        </article>
+
+        <article class="card detailCard">
+          <h3>Operations & services</h3>
+          <p>
+            Staffing is built around customer success: certified tech leads, hospitality crew, and community managers.
+          </p>
+          <ul class="detailList">
+            <li>Monitoring dashboard for temperature, utilization, and queue status.</li>
+            <li>Service blueprint for events, ensuring load-in/load-out happens within 30 minutes.</li>
+            <li>Brand partnerships for hardware demos, fueling quarterly refresh cycles.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="pricing" class="container section switchable">
+      <div class="sectionHead">
+        <h2>Transparent pricing</h2>
+        <p>Aligned with the business model: Standard PC 1.5 BD/hr, Stage & Console 3.5 BD/hr, VIP suites from 8 BD/hr.</p>
+      </div>
+
+      <div class="grid4">
+        <div class="priceCard">
+          <div class="badge">Most Popular</div>
+          <h3>Standard PC</h3>
+          <div class="price"><span>1.5</span> BD/hr</div>
+          <ul>
+            <li>Competitive setup</li>
+            <li>Best for daily play</li>
+            <li>Student-friendly</li>
+          </ul>
+          <button class="btn btnPrimary full" data-preset="pc">Book PC</button>
+        </div>
+
+        <div class="priceCard">
+          <h3>Stage PC</h3>
+          <div class="price"><span>3.5</span> BD/hr</div>
+          <ul>
+            <li>Tournament-grade</li>
+            <li>High FPS focus</li>
+            <li>Perfect for scrims</li>
+          </ul>
+          <button class="btn btnGhost full" data-preset="stage">Book Stage</button>
+        </div>
+
+        <div class="priceCard">
+          <h3>Console</h3>
+          <div class="price"><span>3.5</span> BD/hr</div>
+          <ul>
+            <li>PS5 + Xbox Series X</li>
+            <li>Group-friendly</li>
+            <li>Easy walk-in</li>
+          </ul>
+          <button class="btn btnGhost full" data-preset="console">Book Console</button>
+        </div>
+
+        <div class="priceCard">
+          <h3>VIP Suite</h3>
+          <div class="price"><span>8</span> BD/hr</div>
+          <ul>
+            <li>Private + quiet</li>
+            <li>Streamer-ready</li>
+            <li>Team sessions</li>
+          </ul>
+          <button class="btn btnGhost full" data-preset="vip">Book VIP</button>
+        </div>
+      </div>
+
+      <div class="note">
+        Investor line: “We monetize peak hours, private blocks, and ancillary services — not just walk-ins.”
+      </div>
+
+      <div class="pricingExtras">
+        <article class="card detailCard">
+          <h3>Membership tiers</h3>
+          <ul class="detailList">
+            <li><strong>Core</strong> — 30 hours/month, locker access, and 10% café discount.</li>
+            <li><strong>Elite</strong> — 60 hours/month, guaranteed stage PC slots, on-site coach hotline.</li>
+            <li><strong>Partner</strong> — Corporate account with invoicing, private suite credits, and sponsor overlays.</li>
+          </ul>
+          <p class="muted">
+            All tiers auto-reload, keeping utilization predictable while rewarding loyalty.
+          </p>
+        </article>
+
+        <article class="card detailCard">
+          <h3>Add-ons</h3>
+          <ul class="detailList">
+            <li>Catering packages coordinated with the café partner (from 4 BD per guest).</li>
+            <li>Content production bundle — camera kits, lighting, editor on standby.</li>
+            <li>Brand activations — booth build-outs, sampling, and tournament naming rights.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="booking" class="container section switchable">
+      <div class="sectionHead">
+        <h2>Instant booking</h2>
+        <p>A realistic flow for the deck: select a service, choose a date, lock time slots, and trigger a reservation.</p>
+      </div>
+
+      <div class="bookingShell">
+        <div class="bookingLeft">
+          <div class="field">
+            <label>Service</label>
+            <div class="seg" id="serviceSeg">
+              <button class="segBtn active" data-service="pc">Standard PC</button>
+              <button class="segBtn" data-service="stage">Stage PC</button>
+              <button class="segBtn" data-service="console">Console</button>
+              <button class="segBtn" data-service="vip">VIP Suite</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Date</label>
+            <input id="dateInput" type="date" />
+          </div>
+
+          <div class="field">
+            <label>Hours</label>
+            <div class="slotGrid" id="slotGrid"></div>
+          </div>
+        </div>
+
+        <div class="bookingRight">
+          <div class="summary">
+            <h3>Reservation summary</h3>
+            <div class="sumRow"><span>Service</span><strong id="sumService">Standard PC</strong></div>
+            <div class="sumRow"><span>Date</span><strong id="sumDate">—</strong></div>
+            <div class="sumRow"><span>Slots</span><strong id="sumSlots">—</strong></div>
+            <div class="sumRow"><span>Estimated total</span><strong id="sumTotal">0 BD</strong></div>
+
+            <button class="btn btnPrimary full" id="reserveBtn">Reserve now</button>
+            <p class="tiny">
+              The site saves “reservations” in localStorage so you can reopen and show it.
+            </p>
+          </div>
+
+          <div class="miniLog">
+            <div class="miniLogHead">
+              <span>Recent reservations</span>
+              <button class="btn btnSmall btnGhost" id="clearLog">Clear</button>
+            </div>
+            <div id="logList" class="logList"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="process">
+        <article class="processStep">
+          <span class="stepNum">01</span>
+          <h4>Plan</h4>
+          <p>Pick service, date, and hours. The summary updates instantly so investors see clear economics.</p>
+        </article>
+        <article class="processStep">
+          <span class="stepNum">02</span>
+          <h4>Confirm</h4>
+          <p>Reservation saves locally; hook it to a CRM or POS later to sync with the team calendar.</p>
+        </article>
+        <article class="processStep">
+          <span class="stepNum">03</span>
+          <h4>Deliver</h4>
+          <p>Front desk receives the slot list, preps peripherals, and adds café upsells before guests arrive.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="events" class="container section switchable">
+      <div class="sectionHead">
+        <h2>Events & tournaments</h2>
+        <p>Community engagement drives retention and creates consistent marketing moments.</p>
+      </div>
+
+      <div class="grid3">
+        <div class="card">
+          <h3>Weekly Cups</h3>
+          <p>Valorant, CS2, and EA FC brackets with guaranteed prize pools and sponsored coverage.</p>
+        </div>
+        <div class="card">
+          <h3>Bootcamp Packages</h3>
+          <p>Private suites, stage PCs, and café catering bundled for multi-day team residencies.</p>
+        </div>
+        <div class="card">
+          <h3>Birthdays & Private Events</h3>
+          <p>Fixed-fee packages with staffing, equipment, and hospitality included.</p>
+        </div>
+      </div>
+
+      <div class="eventSchedule">
+        <article class="card detailCard">
+          <h3>Monthly programming</h3>
+          <ul class="detailList">
+            <li><strong>Week 1</strong> — Publisher spotlight events with influencer meet-and-greets.</li>
+            <li><strong>Week 2</strong> — Partnered academy nights focused on youth training.</li>
+            <li><strong>Week 3</strong> — Corporate team-building tournaments plus café tasting menu.</li>
+            <li><strong>Week 4</strong> — Flagship cup with stream, casting desk, and prize ceremony.</li>
+          </ul>
+        </article>
+        <article class="card detailCard">
+          <h3>Brand integration</h3>
+          <p>
+            Sponsors plug into the AV system, LED ribbons, and merch displays. Each activation comes with measurement:
+          </p>
+          <ul class="detailList">
+            <li>QR code scans + conversion funnels.</li>
+            <li>Livestream lower-thirds + highlight reels delivered post-event.</li>
+            <li>CRM tagging so high-value guests can be invited to the next launch.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container section switchable">
+      <div class="sectionHead">
+        <h2>Contact</h2>
+        <p>A simple intake form for partners, investors, and corporate groups.</p>
+      </div>
+
+      <div class="contact">
+        <div class="card">
+          <h3>Ask us anything</h3>
+          <form id="contactForm">
+            <div class="row2">
+              <input required placeholder="Name" />
+              <input required type="email" placeholder="Email" />
+            </div>
+            <input required placeholder="Subject" />
+            <textarea required placeholder="Message"></textarea>
+            <button class="btn btnPrimary" type="submit">Send</button>
+            <p class="tiny" id="contactMsg"></p>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3>Investor one-liner</h3>
+          <p class="sub">
+            “Volantis Hall is positioned to lead Bahrain’s esports market with premium infrastructure,
+            a disciplined operating model, and scalable revenue streams.”
+          </p>
+          <div class="miniList">
+            <span>• Capacity-led advantage</span>
+            <span>• Premium pricing justified by infrastructure</span>
+            <span>• Events + café lift average spend</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contactDetails">
+        <article class="card detailCard">
+          <h3>Visit the venue</h3>
+          <p>Seef District, Manama — adjacent to the mall parking structure for easy drop-offs.</p>
+          <ul class="detailList">
+            <li>Open daily 12:00–02:00.</li>
+            <li>Private viewings available before 11:00 with prior notice.</li>
+            <li>On-site concierge: +973 3310 0024.</li>
+          </ul>
+        </article>
+        <article class="card detailCard">
+          <h3>Quick facts for decks</h3>
+          <ul class="detailList">
+            <li>CapEx deployed to date: 210K BD (hardware, fit-out, and systems).</li>
+            <li>Break-even at 54% peak utilization; forecasted at 72% within 9 months.</li>
+            <li>Pipeline: 6 corporate partners + 3 national esports federations.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footerInner">
+        <span>© 2025 Volantis Hall</span>
+        <span class="muted">Prepared for a concise “we are investor-ready” presentation.</span>
+      </div>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
